@@ -12,16 +12,16 @@ rbac:
   roles: {}
 #   rolename: # name of role
 #     disabled: false
-#     rules: # Rules without apiGroups will get an apiGroups: [ '""' ]
-#       - apiGroups:
-#         resources:
-#         resourceNames:
-#         verbs:
+#     rules: # Missing or empty rules defaults to ['*'] for apiGroups, resources, and verbs
+#       - apiGroups: # Missing apiGroups defaults to ['*']
+#         resources: # Missing resources defaults to ['*']
+#         resourceNames: # Optional
+#         verbs: # Missing verbs defaults to ['*']
   clusterRoles: {}
 #   clusterrolename: # name of clusterrole
 #     disabled: false
-#     rules: # Rules without apiGroups will get an apiGroups: [ '""' ]
-#       - apiGroups:
-#         resources:
-#         resourceNames:
-#         verbs:
+#     rules: # Missing or empty rules defaults to ['*'] for apiGroups, resources, and verbs
+#       - apiGroups: # Missing apiGroups defaults to ['*']
+#         resources: # Missing resources defaults to ['*']
+#         resourceNames: # Optional
+#         verbs: # Missing verbs defaults to ['*']
