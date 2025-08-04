@@ -1,6 +1,7 @@
 apiVersion: v2
-description: A Helm chart to serve as the Validated Patterns Template
+description: A Helm chart to manage serviceAccounts, roles and rolebindings
 keywords:
 - pattern
-name: vp-template
+- rbac
+name: vp-rbac
 version: 0.0.1
