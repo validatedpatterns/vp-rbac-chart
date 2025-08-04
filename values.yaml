@@ -1,6 +1,5 @@
 ---
-rbac:
-  serviceAccounts: {}
+serviceAccounts: {}
 #   saname: # This is the name of the serviceAccount
 #     disabled: false
 #     namespace: my-namespace
@@ -9,7 +8,7 @@ rbac:
 #         - name
 #       clusterRoles:
 #         - name
-  roles: {}
+roles: {}
 #   rolename: # name of role
 #     disabled: false
 #     rules: # Missing or empty rules defaults to ['*'] for apiGroups, resources, and verbs
@@ -17,7 +16,7 @@ rbac:
 #         resources: # Missing resources defaults to ['*']
 #         resourceNames: # Optional
 #         verbs: # Missing verbs defaults to ['*']
-  clusterRoles: {}
+clusterRoles: {}
 #   clusterrolename: # name of clusterrole
 #     disabled: false
 #     rules: # Missing or empty rules defaults to ['*'] for apiGroups, resources, and verbs

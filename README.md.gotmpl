@@ -5,9 +5,12 @@
 
 {{ template "chart.description" . }}
 
-This chart is used to serve as the template for Validated Patterns Charts
+This chart is used to provision serviceAccounts, cluster roles, roles and rolebindings for Validated Patterns
 
 ### Notable changes
+
+* v0.1.1: Simplified values structure by removing potentially redundancy "rbac" key
+* v0.1.0: Initial release
 
 {{ template "chart.homepageLine" . }}
 
