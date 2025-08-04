@@ -1,12 +1,16 @@
 # vp-rbac
 
-![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square)
+![Version: 0.1.2](https://img.shields.io/badge/Version-0.1.2-informational?style=flat-square)
 
 A Helm chart to manage serviceAccounts, roles and rolebindings
 
-This chart is used to serve as the template for Validated Patterns Charts
+This chart is used to provision serviceAccounts, cluster roles, roles and rolebindings for Validated Patterns
 
 ### Notable changes
+
+* v0.1.2: Default verbs to read-only (get/list/watch) instead of the write permissions
+* v0.1.1: Simplified values structure by removing potentially redundancy "rbac" key
+* v0.1.0: Initial release
 
 ## Values
 
